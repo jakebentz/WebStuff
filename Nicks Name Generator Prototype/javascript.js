@@ -3,7 +3,10 @@ var newFirst = [
   'appendage',
   'whale',
   'burp',
-  'thing'
+  'thing',
+  'moof',
+  'waste',
+  'dill'
 ]
 
 var newLast = [
@@ -11,7 +14,10 @@ var newLast = [
   'drinker',
   'gulper',
   'chugger',
-  'masher'
+  'masher',
+  'milker',
+  'crusher',
+  'dunker'
 ]
 
 function newName() {
