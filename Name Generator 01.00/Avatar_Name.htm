@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Avatar Name Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <p>Enter names in the fields, then click "Submit"</p>
+    <form>
+      Gender:<br>
+      <select name="gender" id='gender'>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select><br><br>
+      Highest Floor Reached in the Tower of Barbs:<br>
+        <select name="floor" id='floor'>
+          <option value="1">Floor 1-20</option>
+          <option value="22">Floor 20-30</option>
+          <option value="333">Floor 30-40</option>
+          <option value="4444">Floor 40-50</option>
+          <option value="55555">Floor 50-100</option>
+          <option value="666666">Floor 100-200</option>
+          <option value="7777777">Floor 200+</option>
+        </select><br><br>
+      Favorite Faction:<br>
+      <select name="faction" id='faction'>
+        <option value="dodarms">D.O.D. Arms</option>
+        <option value="warensemble">War Ensemble</option>
+        <option value="candle">Candle Wolf</option>
+        <option value="milk">M.I.L.K.</option>
+      </select><br><br>
+      Tone:<br>
+      <select name="tone" id='tone'>
+        <option value="serious">Serious</option>
+        <option value="silly">Silly</option>
+      </select><br><br>
+
+    <!--
+      Question 1: <input type="text" maxlength="120" name="ans1" id='ans1'><br><br>
+      Question 2: <input type="text" maxlength="120" name="ans2" id='ans2'><br><br>
+      Question 3: <input type="text" maxlength="120" name="ans3" id='ans3'><br><br>
+      Question 4: <input type="text" maxlength="120" name="ans4" id='ans4'><br><br>
+      Question 5: <input type="text" maxlength="120" name="ans5" id='ans5'><br><br>
+      Question 6: <input type="text" maxlength="120" name="ans6" id='ans6'><br><br>
+      Question 7: <input type="text" maxlength="120" name="ans7" id='ans7'><br><br>
+      Question 8: <input type="text" maxlength="120" name="ans8" id='ans8'><br><br>
+      <br>
+    -->
+    <input type="button" onclick="newName()" value="Submit">
+</form>
+  <h1>Avatar Name Generator</h1>
+  <div id="choices">
+  </div>
+
+  <div id="nameDisplay">
+  </div>
+
+  <div id="result">
+  </div>
+
+  <script src="Avatar_Script.js"></script>
+</body>
+</html>
