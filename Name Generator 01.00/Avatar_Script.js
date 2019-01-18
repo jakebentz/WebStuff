@@ -786,7 +786,7 @@ var nameName = result[number]
 if (vTone == "serious"){
 nameTone = "Tough";
 } else {
-  nameTone = "Silly";
+  nameTone = "Funny";
 }
 
 //Determine faction
