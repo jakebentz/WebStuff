@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Avatar Name Generator</title>
+    <title>Fighter Name Generator</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <p>Enter names in the fields, then click "Submit"</p>
-    <form>
-      Gender:<br>
+  <h1>Fighter Name Generator</h1>
+
+  <p>Select your choices, then click "Submit"</p>
+
+      <center><p>Gender:<br>
       <select name="gender" id='gender'>
         <option value="male">Male</option>
         <option value="female">Female</option>
@@ -35,6 +37,7 @@
         <option value="silly">Silly</option>
       </select><br><br>
 
+
     <!--
       Question 1: <input type="text" maxlength="120" name="ans1" id='ans1'><br><br>
       Question 2: <input type="text" maxlength="120" name="ans2" id='ans2'><br><br>
@@ -46,18 +49,19 @@
       Question 8: <input type="text" maxlength="120" name="ans8" id='ans8'><br><br>
       <br>
     -->
+</p>
     <input type="button" onclick="newName()" value="Submit">
-</form>
-  <h1>Avatar Name Generator</h1>
-  <div id="choices">
-  </div>
-
-  <div id="nameDisplay">
-  </div>
+<br><br><h1>
+  <div id="nameDisplay" style="text-align:center;border:3px solid green">
+  </div></h1>
 
   <div id="result">
   </div>
 
+  <div id="choices">
+  </div>
+
   <script src="Avatar_Script.js"></script>
+  </center>
 </body>
 </html>

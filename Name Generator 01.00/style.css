@@ -5,12 +5,19 @@
 }
 
 body {
-  background: #1119;
+  background-image: url("https://www.letitdiethegame.com/assets/images/news-assets/background-dots-1920x60.png");
+  background-repeat: repeat-y;
 }
 
 #wrapper {
   max-width: 80%;
   margin: 0 auto;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
 }
 
 ul, form {float: left;}
